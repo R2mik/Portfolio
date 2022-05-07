@@ -1,5 +1,6 @@
 import IphoneTestImg from '../../assets/Images/testImg/Home.png'
 import TabletTestImg from '../../assets/Images/testImg/BigBubble.png'
+import blank from '../../assets/Images/testImg/blank.png'
 
 export const PDetails = [
     {
@@ -8,12 +9,9 @@ export const PDetails = [
         projectDesc: '',
         projectType: '',
         technologies: [''],
-        imgIphone: '',
-        imgTablet: '',
-        rateIphone: '',
-        rateTablet: '',
-        scaleIphone: '',
-        scaleTablet: '',
+        imgIphone: blank,
+        imgTablet: blank,
+
     },
     {
         number: '01',
@@ -23,10 +21,6 @@ export const PDetails = [
         technologies: ['React', 'Sass', 'JavaScript'],
         imgIphone: IphoneTestImg,
         imgTablet: TabletTestImg,
-        rateIphone: 1.05,
-        rateTablet: 1.5,
-        scaleIphone: 0.8,
-        scaleTablet: 0.75,
     },
     {
         number: '02',
@@ -36,10 +30,6 @@ export const PDetails = [
         technologies: ['JavaScript', 'Bootstrap'],
         imgIphone: IphoneTestImg,
         imgTablet: TabletTestImg,
-        rateIphone: 1.05,
-        rateTablet: 1.5,
-        scaleIphone: 0.8,
-        scaleTablet: 0.75,
     },
     {
         number: '03',
@@ -49,10 +39,6 @@ export const PDetails = [
         technologies: ['@react-three/fiber', 'react-three/drei'],
         imgIphone: IphoneTestImg,
         imgTablet: TabletTestImg,
-        rateIphone: 1.05,
-        rateTablet: 1.5,
-        scaleIphone: 0.8,
-        scaleTablet: 0.75,
     },
     {
         number: '04',
@@ -62,10 +48,6 @@ export const PDetails = [
         technologies: ['React', 'Sass', 'JavaScript'],
         imgIphone: IphoneTestImg,
         imgTablet: TabletTestImg,
-        rateIphone: 1.05,
-        rateTablet: 1.5,
-        scaleIphone: 0.8,
-        scaleTablet: 0.75,
     },
     {
         number: '',
@@ -73,11 +55,7 @@ export const PDetails = [
         projectDesc: '',
         projectType: '',
         technologies: [''],
-        imgIphone: '',
-        imgTablet: '',
-        rateIphone: '',
-        rateTablet: '',
-        scaleIphone: '',
-        scaleTablet: '',
+        imgIphone: blank,
+        imgTablet: blank,
     },
 ]

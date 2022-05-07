@@ -17,7 +17,6 @@ export const ProjectTextContent = () => {
         else if ((Math.round((scrollY-NajAboutSize)) > 0 )){
             setSlideNumber(Math.round((scrollY-NajAboutSize)/(document.querySelector(".project-container").offsetHeight / PDetails.length)))
         } 
-        //console.log(PDetails.length);
     }
     
     useEffect(() => {
