@@ -1,0 +1,101 @@
+.project-container {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid red;
+    height: 720vh;
+    
+    .text{
+        position: fixed;
+        top: 0;
+        left:0;
+        display: flex;
+        flex-flow: column nowrap;
+        height: 120vh;
+        width: 50%;
+        border: 1px solid blue;
+
+        .text-id{
+            padding: 5%;
+            font-size: 30px;
+
+            --min-font-size: 10;
+            --max-font-size: 30;
+            --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
+            font-size:
+            clamp(
+                var(--min-font-size) * 1px,
+                var(--fluid-size),
+                var(--max-font-size) * 1px
+                );
+        }
+
+        .text-details-container{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            padding-top: 5%;
+
+            .text-details {
+                display: flex;
+                flex-flow: column nowrap;
+                width: 100%;
+                padding: 5%;
+                padding-left: 10%;
+
+                .text-details-name{
+                    font-size: 80px;
+                    font-weight: bold;
+                    --min-font-size: 24;
+                    --max-font-size: 50;
+                    --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
+                    font-size:
+                    clamp(
+                        var(--min-font-size) * 1px,
+                        var(--fluid-size),
+                        var(--max-font-size) * 1px
+                    );
+                }
+                .text-details-descriptions {
+                    padding-top: 2%;
+                    font-size: 30px;
+                    --min-font-size: 10;
+                    --max-font-size: 30;
+                    --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
+                    font-size:
+                    clamp(
+                        var(--min-font-size) * 1px,
+                        var(--fluid-size),
+                        var(--max-font-size) * 1px
+                    );
+                }
+                .text-details-technologies {
+                    --min-font-size: 10;
+                    --max-font-size: 30;
+                    --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
+                    font-size:
+                    clamp(
+                        var(--min-font-size) * 1px,
+                        var(--fluid-size),
+                        var(--max-font-size) * 1px
+                    )
+                }
+            }
+        }
+        .text-type {
+            padding: 5%;
+            font-size: 30px;
+            position: absolute;
+            bottom: 20vh;
+
+            --min-font-size: 10;
+            --max-font-size: 30;
+            --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
+            font-size:
+            clamp(
+                var(--min-font-size) * 1px,
+                var(--fluid-size),
+                var(--max-font-size) * 1px
+            );
+        }
+    }
+}

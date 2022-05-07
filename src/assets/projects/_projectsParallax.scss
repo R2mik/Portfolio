@@ -1,0 +1,65 @@
+/* .image-container {
+    //border: 1px solid black;
+    margin-left: 50%;
+    width:50%;
+    height: 600vh;
+    display: flex;
+    flex-flow: column nowrap;
+
+    .image-box {
+        outline: 0.1px dashed green;
+        margin-top: 4vh;
+        height: 120vh;
+        position: relative;
+        
+        .iphone {
+
+            transition: transform 0.2s ease-out;
+            position: absolute;
+            bottom:-50vh;
+            left: 0vw;
+            border: 1px dashed red;
+            height: 80vh;
+        }
+        .tablet {
+            transition: transform 0.2s ease-out;
+            position: absolute;
+            bottom: -40vh;
+            right:0vw;
+            border: 1px dashed red;
+            height: 50vh; 
+            filter: blur(0.6px);
+        }
+    }
+} */
+
+.imageBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 120vh;
+    width: 50%;
+
+    .image-container{
+
+        position: relative;
+        display: flex;
+        height: 100vh;
+
+        .iphone {
+            padding: 5%;
+            transition: trasform 0.5s ease-out;
+            position: absolute;
+            bottom: -70vh;
+        }
+        .tablet {
+            padding: 5%;
+            transition: trasform 0.5s ease-out;
+            position: absolute;
+            right: 0vw;
+            bottom: -70vh;
+        }
+    }
+}
