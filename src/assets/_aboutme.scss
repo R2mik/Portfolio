@@ -11,7 +11,7 @@
     align-items: center;        
     //border: green solid 1px;
 
-    .parallax-title{
+        .parallax-title{
             display: flex;
             align-items: center;
             height: 100%;
@@ -30,21 +30,21 @@
                 var(--max-font-size) * 1px
                 );
                 z-index: -1;
-            }
-            .aboutDescription {
-                //border: 1px pink solid;
-                text-align: left;
-                margin-left: 30%;
-                margin-right: 5%;
-                --min-font-size: 12;
-                --max-font-size: 40;
-                --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
-                font-size:
-                clamp(
-                    var(--min-font-size) * 1px,
-                    var(--fluid-size),
-                    var(--max-font-size) * 1px
-                    );
-            }
+        }
+        .aboutDescription {
+            //border: 1px pink solid;
+            text-align: left;
+            margin-left: 30%;
+            margin-right: 5%;
+            --min-font-size: 12;
+            --max-font-size: 40;
+            --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
+            font-size:
+            clamp(
+                var(--min-font-size) * 1px,
+                var(--fluid-size),
+                var(--max-font-size) * 1px
+                );
+        }
     }
 }

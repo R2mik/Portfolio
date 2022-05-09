@@ -1,0 +1,36 @@
+@import './variables';
+
+.container{
+
+    .parallax-title-contact{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-family: $Vietnam;
+        transition: transform 1.5s ease-out;
+        position: absolute;
+        color: $secondary;
+        right: 20%;
+        --min-font-size: 30;
+        --max-font-size: 150;
+        --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
+        font-size:
+        clamp(
+            var(--min-font-size) * 1px,
+            var(--fluid-size),
+            var(--max-font-size) * 1px
+            );
+                z-index: -1;
+    }
+    .social{
+        @include flexCenter();
+        list-style: none;
+        
+        .social-icon {
+            display: inline-block;
+            position: relative;
+            justify-content: space-between;
+            padding: auto;
+        }
+    }
+}
