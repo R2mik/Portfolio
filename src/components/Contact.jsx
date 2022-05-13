@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import  { SiMaildotru } from 'react-icons/si'
 
 export const Contact = () => {
     
@@ -32,23 +33,26 @@ export const Contact = () => {
 
   return (
     <div className='container'>
-        <div className='center-ver'>
+            <div className="social">
             <h1 className="parallax-title-contact" style={{transform: `translateX(${-(offsetX) * 20}%)`}}> CONTACT </h1>
-            <ul className="social">
-                <li className='social-icon'>
-                    <a href='https://github.com/R2mik'><FaGithub/></a>
-                </li>
-                <li className='social-icon'>
-                    <a href='https://www.linkedin.com/in/artur-adamik-86798979/'><FaLinkedin/></a>
-                </li>
-                <li className='social-icon'>
-                    <a href='https://www.facebook.com/artur.adamik.1/'><FaFacebook/></a>
-                </li>
-                <li className='social-icon'>
-                    <a href='https://www.instagram.com/king_arrtur/'><FaInstagram/></a>
-                </li>
-            </ul>
+                <ul className="social-element">
+                    <li className='social-icon'>
+                        <a href='https://github.com/R2mik' className='github'><FaGithub/></a>
+                    </li>
+                    <li className='social-icon'>
+                        <a href='https://www.linkedin.com/in/artur-adamik-86798979/' className='linkedin'><FaLinkedin/></a>
+                    </li>
+                    <li className='social-icon' data-text="adamik.artur93@gmail.com">
+                        <a href='mailto:adamik.artur93@gmail.com' className='mail'><SiMaildotru/></a>
+                    </li>
+                    <li className='social-icon'>
+                        <a href='https://www.facebook.com/artur.adamik.1/' className='facebook'><FaFacebook/></a>
+                    </li>
+                    <li className='social-icon'>
+                        <a href='https://www.instagram.com/king_arrtur/' className='instagram'><FaInstagram/></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
   )
 }

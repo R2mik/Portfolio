@@ -23,14 +23,68 @@
                 z-index: -1;
     }
     .social{
-        @include flexCenter();
-        list-style: none;
+        @include flexCenter;
+        height: 100%;
+        
+        .social-element{
+            position: relative;
+            display: flex;
+            
+            .social-icon{
+                list-style: none;
+                 
+                &::before{
+                    content: attr(data-text);
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, calc(-50% + 100px));
+                    font-size: 5vw;
+                    pointer-events: none;
+                    transition: 0.5s;
+                    opacity: 0;
+                }
+                &:hover::before{
+                    opacity: 0.1;
+                    transform: translate(-50%, calc(-50% + 120px));
+                }
+
+                a{
+                    position: relative;
+                    display: inline-block;
+                    width: 15vw;
+                    height: 15vw;
+                    @include flexCenter;
+                    color: $dark;
+                    text-decoration: none;
+                    margin: 1vw;
+                    font-size: 5vw;
+
+                    &:hover.github {
+                        color:#4e4848
+                    }
+                    &:hover.linkedin {
+                        color:#0072b1
+                    }
+                    &:hover.mail {
+                        color:#177300
+                    }
+                    &:hover.facebook {
+                        color:#1877f2
+                    }
+                    &:hover.instagram {
+                        color:#e4405f
+                    }
+                }
+            }
+        }
+/*         list-style: none;
         
         .social-icon {
             display: inline-block;
             position: relative;
             justify-content: space-between;
-            padding: auto;
-        }
+            
+        } */
     }
 }
