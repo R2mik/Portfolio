@@ -10,7 +10,7 @@
         transition: transform 1.5s ease-out;
         position: absolute;
         color: $secondary;
-        right: 20%;
+        left: 20%;
         --min-font-size: 30;
         --max-font-size: 150;
         --fluid-size: var(--min-font-size) * 1px + (var(--max-font-size) - var(--min-font-size)) * ((100vw - 420px) / (1200 - 420));
@@ -38,7 +38,7 @@
                     position: absolute;
                     top: 50%;
                     left: 50%;
-                    transform: translate(-50%, calc(-50% + 100px));
+                    transform: translate(-50%, calc(-50% + 5.5vw));
                     font-size: 5vw;
                     pointer-events: none;
                     transition: 0.5s;
@@ -46,7 +46,7 @@
                 }
                 &:hover::before{
                     opacity: 0.1;
-                    transform: translate(-50%, calc(-50% + 120px));
+                    transform: translate(-50%, calc(-50% + 6.5vw));
                 }
 
                 a{

@@ -34,7 +34,7 @@ export const Contact = () => {
   return (
     <div className='container'>
             <div className="social">
-            <h1 className="parallax-title-contact" style={{transform: `translateX(${-(offsetX) * 20}%)`}}> CONTACT </h1>
+            <h1 className="parallax-title-contact" style={{transform: `translateX(${(offsetX) * 20}%)`}}> CONTACT </h1>
                 <ul className="social-element">
                     <li className='social-icon'>
                         <a href='https://github.com/R2mik' className='github'><FaGithub/></a>
