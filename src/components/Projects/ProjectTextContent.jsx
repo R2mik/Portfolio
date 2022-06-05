@@ -28,7 +28,7 @@ export const ProjectTextContent = () => {
     <div className='text'>
       <div className="text-id">{PDetails[slideNumber].number}</div>
       <div className="text-details-container">
-        <div className="text-details">
+        <a className="text-details" href={PDetails[slideNumber].page} target='_blank'>
           <div className="text-details-name">{PDetails[slideNumber].projectName}</div>
           <div className="text-details-technologies">{PDetails[slideNumber].technologies.map((tech, index, arr) => (index === arr.length - 1 ? (
               <span key={tech}>
@@ -43,7 +43,7 @@ export const ProjectTextContent = () => {
             ))}
           </div>
           <div className="text-details-descriptions">{PDetails[slideNumber].projectDesc}</div>
-        </div>
+        </a>
       </div>
       <div className="text-type">{PDetails[slideNumber].projectType}</div>
     </div>

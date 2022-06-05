@@ -37,8 +37,15 @@ export const ProjectsParallax = () => {
     return (
         <div className="imageBox">
           <div className="image-container">
-            <img className='iphone' src={PDetails[slideNumber].imgIphone} style={{transform: `translate(5%, -${scrollImg * 30}%) scale(0.3)`}} alt="Iphone test"></img>
-            <img className='tablet' src={PDetails[slideNumber].imgTablet} style={{transform: `translate(30%, -${scrollImg * 20}%) scale(0.3)`}} alt="Tablet test"></img>
+          <img className='monitor m1' src={PDetails[slideNumber].imgMonitor1} style={{transform: `translate(3vw, -${scrollImg * 8}%) scale(0.5)`}} alt="Tablet img 1"></img>
+          <img className='monitor m2' src={PDetails[slideNumber].imgMonitor2} style={{transform: `translate(5%, -${scrollImg * 5}%) scale(0.3)`}} alt="Tablet img 2"></img>
+          <img className='monitor m3' src={PDetails[slideNumber].imgMonitor3} style={{transform: `translate(7%, -${scrollImg * 7}%) scale(0.3)`}} alt="Tablet img 3"></img>
+          <img className='tablet t1' src={PDetails[slideNumber].imgTablet1} style={{transform: `translate(-10%, -${scrollImg * 20}%) scale(0.3)`}} alt="Tablet img 1"></img>
+          <img className='tablet t2' src={PDetails[slideNumber].imgTablet2} style={{transform: `translate(30%, -${scrollImg * 20}%) scale(0.3)`}} alt="Tablet img 2"></img>
+          <img className='tablet t3' src={PDetails[slideNumber].imgTablet3} style={{transform: `translate(0%, -${scrollImg * 20}%) scale(0.3)`}} alt="Tablet img 3"></img>
+          <img className='iphone i1' src={PDetails[slideNumber].imgIphone1} style={{transform: `translate(-10%, -${scrollImg * 30}%) scale(0.3)`}} alt="Iphone img 1"></img>
+          <img className='iphone i2' src={PDetails[slideNumber].imgIphone2} style={{transform: `translate(30%, -${scrollImg * 30}%) scale(0.3)`}} alt="Iphone img 2"></img>
+          <img className='iphone i3' src={PDetails[slideNumber].imgIphone3} style={{transform: `translate(80%, -${scrollImg * 30}%) scale(0.3)`}} alt="Iphone img 3"></img>
           </div>
         </div>
       )

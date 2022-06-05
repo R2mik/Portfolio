@@ -1,7 +1,7 @@
 .project-container {
     display: flex;
     flex-flow: row nowrap;
-    border: 1px solid red;
+    //border: 1px solid red;
     height: 720vh;
     
     .text{
@@ -12,7 +12,7 @@
         flex-flow: column nowrap;
         height: 120vh;
         width: 50%;
-        border: 1px solid blue;
+        //border: 1px solid blue;
 
         .text-id{
             padding: 5%;
@@ -27,6 +27,18 @@
                 var(--fluid-size),
                 var(--max-font-size) * 1px
                 );
+        }
+
+        a {
+            &:link, &:visited{
+            text-decoration: none;
+            color: $dark;
+            }
+            
+            .text-details-name:hover {
+                text-decoration: underline;
+                color: blue;
+            }
         }
 
         .text-details-container{
@@ -54,6 +66,7 @@
                         var(--fluid-size),
                         var(--max-font-size) * 1px
                     );
+
                 }
                 .text-details-descriptions {
                     padding-top: 2%;
@@ -77,7 +90,7 @@
                         var(--min-font-size) * 1px,
                         var(--fluid-size),
                         var(--max-font-size) * 1px
-                    )
+                    );
                 }
             }
         }
