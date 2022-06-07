@@ -16,6 +16,10 @@ import t2DH from '../../assets/Images/DH/tablet2DH.png'
 import t3DH from '../../assets/Images/DH/tablet3DH.png'
 import p1DH from '../../assets/Images/DH/telefon1DH.png'
 import p2DH from '../../assets/Images/DH/telefon2DH.png'
+import m1Portfolio from '../../assets/Images/portfolio/monitor1Portfolio.png'
+import t1Portfolio from '../../assets/Images/portfolio/tablet1Portfolio.png'
+import t2Portfolio from '../../assets/Images/portfolio/tablet1Portfolio.png'
+import p1Portfolio from '../../assets/Images/portfolio/phone1Portfolio.png'
 
 export const PDetails = [
     {
@@ -43,6 +47,8 @@ export const PDetails = [
         technologies: ['React', 'Sass', 'JavaScript'],
         page: 'www.dreamhouse.com',
         imgIphone1: p1DH,
+        imgTransXP1: '-10vw',
+        imgTransYP1: '-5vw',
         imgIphone2: p2DH,
         imgTablet1: t1DH,
         imgTablet2: t2DH,
@@ -86,8 +92,10 @@ export const PDetails = [
         projectType: 'WEB APP',
         technologies: ['React', 'Sass', 'JavaScript'], 
         page: 'www.portfolio.com',
-        imgIphone1: IphoneTestImg,
-        imgTablet1: TabletTestImg,
+        imgIphone1: p1Portfolio,
+        imgTablet1: t1Portfolio,
+        imgTablet2: t2Portfolio,
+        imgMonitor1: m1Portfolio,
     },
     {
         number: '',
@@ -96,6 +104,13 @@ export const PDetails = [
         projectType: '',
         technologies: [''],
         imgIphone1: blank,
+        imgIphone2: blank,
+        imgIphone3: blank,
         imgTablet1: blank,
+        imgTablet2: blank,
+        imgTablet3: blank,
+        imgMonitor1: blank,
+        imgMonitor2: blank,
+        imgMonitor3: blank,
     },
 ]

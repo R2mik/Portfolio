@@ -19,11 +19,7 @@ export const Contact = () => {
         if (maxLimit - vh < scrollY) {
             setOffsetX((scrollY - maxLimit) * 100 / (maxLimit))
         }
-        console.log(scrollY * 100 / (maxLimit))
     }
-    
-            console.log(scrollY)
-            console.log(offsetX);
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
