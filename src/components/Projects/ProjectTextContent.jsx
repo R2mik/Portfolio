@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react'
+
+import { StaggerTextChange } from 'stagger-text-reveal-animation'
+
 import { PDetails } from './ProjectDetails'
 
 export const ProjectTextContent = () => {

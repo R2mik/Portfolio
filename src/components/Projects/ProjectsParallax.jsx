@@ -40,15 +40,15 @@ export const ProjectsParallax = () => {
     return (
         <div className="imageBox">
           <div className="image-container">
-          <img className='monitor m1' src={PDetails[slideNumber].imgMonitor1} style={{transform: `translate(0vw, -${scrollImg * 8}%) scale(0.5)`, bottom: '-90vh'}} alt="Monitor img 1"></img>
-          <img className='monitor m2' src={PDetails[slideNumber].imgMonitor2} style={{transform: `translate(5vw, -20vw-${scrollImg * 5}%) scale(0.3)`, bottom: '-103vh'}} alt="Monitor img 2"></img>
-          <img className='monitor m3' src={PDetails[slideNumber].imgMonitor3} style={{transform: `translate(7vw, -5vw-${scrollImg * 7}%) scale(0.3)`, bottom: '-128vh'}} alt="Monitor img 3"></img>
-          <img className='tablet t1' src={PDetails[slideNumber].imgTablet1} style={{transform: `translate(-10vw, -${scrollImg * 20}%) scale(0.3)`, bottom: '-100vh'}} alt="Tablet img 1"></img>
-          <img className='tablet t2' src={PDetails[slideNumber].imgTablet2} style={{transform: `translate(10vw, -${scrollImg * 39}%) scale(0.3)`, bottom: '-127vh'}} alt="Tablet img 2"></img>
-          <img className='tablet t3' src={PDetails[slideNumber].imgTablet3} style={{transform: `translate(0vw, -${scrollImg * 31}%) scale(0.3)`, bottom: '-84vh'}} alt="Tablet img 3"></img>
-          <img className='iphone i1' src={PDetails[slideNumber].imgIphone1} style={{transform: `translate(10vw, -${scrollImg * 42}%) scale(0.3)`, bottom: '-93vh'}} alt="Iphone img 1"></img>
-          <img className='iphone i2' src={PDetails[slideNumber].imgIphone2} style={{transform: `translate(-15vw, -${scrollImg * 33}%) scale(0.3)`, bottom: '-107vh'}} alt="Iphone img 2"></img>
-          <img className='iphone i3' src={PDetails[slideNumber].imgIphone3} style={{transform: `translate(3vw, -${scrollImg * 13}%) scale(0.3)`, bottom: '-97vh'}} alt="Iphone img 3"></img>
+          <img className='monitor m1' src={PDetails[slideNumber].imgMonitor1} style={{transform: `translate(0vw, -${scrollImg * 8}%) scale(0.5)`, bottom: '-110vh'}} alt="Monitor img 1"></img>
+          <img className='monitor m2' src={PDetails[slideNumber].imgMonitor2} style={{transform: `translate(5vw, -20vw-${scrollImg * 5}%) scale(0.4)`, bottom: '-123vh'}} alt="Monitor img 2"></img>
+          <img className='monitor m3' src={PDetails[slideNumber].imgMonitor3} style={{transform: `translate(7vw, -5vw-${scrollImg * 7}%) scale(0.43)`, bottom: '-148vh'}} alt="Monitor img 3"></img>
+          <img className='tablet t1' src={PDetails[slideNumber].imgTablet1} style={{transform: `translate(-10vw, -${scrollImg * 30}%) scale(0.5)`, bottom: '-120vh'}} alt="Tablet img 1"></img>
+          <img className='tablet t2' src={PDetails[slideNumber].imgTablet2} style={{transform: `translate(7vw, -${scrollImg * 39}%) scale(0.4)`, bottom: '-147vh'}} alt="Tablet img 2"></img>
+          <img className='tablet t3' src={PDetails[slideNumber].imgTablet3} style={{transform: `translate(0vw, -${scrollImg * 31}%) scale(0.35)`, bottom: '-104vh'}} alt="Tablet img 3"></img>
+          <img className='iphone i1' src={PDetails[slideNumber].imgIphone1} style={{transform: `translate(10vw, -${scrollImg * 37}%) scale(0.5)`, bottom: '-113vh'}} alt="Iphone img 1"></img>
+          <img className='iphone i2' src={PDetails[slideNumber].imgIphone2} style={{transform: `translate(-15vw, -${scrollImg * 33}%) scale(0.4)`, bottom: '-127vh'}} alt="Iphone img 2"></img>
+          <img className='iphone i3' src={PDetails[slideNumber].imgIphone3} style={{transform: `translate(3vw, -${scrollImg * 13}%) scale(0.35)`, bottom: '-117vh'}} alt="Iphone img 3"></img>
           </div>
         </div>
       )

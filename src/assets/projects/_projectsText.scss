@@ -92,6 +92,50 @@
                         var(--max-font-size) * 1px
                     );
                 }
+
+/*                 .text-details-name::before,
+                .text-details-descriptions::before,
+                .text-details-technologies::before,
+                .text-details-name::after,
+                .text-details-descriptions::after,
+                .text-details-technologies::after{
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                    background-color: $dark;
+                }
+
+                .text-details-name::before,
+                .text-details-descriptions::before,
+                .text-details-technologies::before{
+                    animation: reveal 2s ease forwards
+                }
+                .text-details-name::after,
+                .text-details-descriptions::after,
+                .text-details-technologies::after {
+                    background-color: whitesmoke;
+                    animation: base 2s ease forwards;
+                }
+
+                @keyframes reveal {
+                    0%{
+                        transform: translateX(-100%);
+                    }
+                    100% {
+                        transform: translateX(111%);
+                    }    
+                }
+                @keyframes base {
+                    0%{
+                        transform: translateX(0%);
+                    }
+                    100% {
+                        transform: translateX(100%);
+                    }    
+                } */
             }
         }
         .text-type {

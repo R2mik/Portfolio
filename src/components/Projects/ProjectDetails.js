@@ -1,5 +1,3 @@
-import IphoneTestImg from '../../assets/Images/testImg/Home.png'
-import TabletTestImg from '../../assets/Images/testImg/BigBubble.png'
 import blank from '../../assets/Images/testImg/blank.png'
 import m1SNB from '../../assets/Images/snb/m1SNB.png'
 import p1SNB from '../../assets/Images/snb/p1SNB.png'
@@ -18,8 +16,8 @@ import p1DH from '../../assets/Images/DH/telefon1DH.png'
 import p2DH from '../../assets/Images/DH/telefon2DH.png'
 import m1Portfolio from '../../assets/Images/portfolio/monitor1Portfolio.png'
 import t1Portfolio from '../../assets/Images/portfolio/tablet1Portfolio.png'
-import t2Portfolio from '../../assets/Images/portfolio/tablet1Portfolio.png'
-import p1Portfolio from '../../assets/Images/portfolio/phone1Portfolio.png'
+import t2Portfolio from '../../assets/Images/portfolio/tablet2Portfolio.png'
+import p2Portfolio from '../../assets/Images/portfolio/phone1Portfolio.png'
 
 export const PDetails = [
     {
@@ -92,7 +90,7 @@ export const PDetails = [
         projectType: 'WEB APP',
         technologies: ['React', 'Sass', 'JavaScript'], 
         page: 'www.portfolio.com',
-        imgIphone1: p1Portfolio,
+        imgIphone2: p2Portfolio,
         imgTablet1: t1Portfolio,
         imgTablet2: t2Portfolio,
         imgMonitor1: m1Portfolio,
